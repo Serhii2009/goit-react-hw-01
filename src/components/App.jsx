@@ -1,6 +1,5 @@
 // import "./App.css";
 import userData from "./Profile/userData.json";
-
 import { Profile } from "./Profile/Profile";
 
 export const App = () => {
