@@ -1,5 +1,5 @@
 // import "./App.css";
-import userData from "./userData.json";
+import userData from "./Profile/userData.json";
 
 import { Profile } from "./Profile/Profile";
 
