@@ -1,4 +1,6 @@
 import "./App.css";
+import { FaAnglesDown } from "react-icons/fa6";
+
 import userData from "./Profile/userData.json";
 import friends from "./FriendList/friends.json";
 import transactions from "./TransactionHistory/transactions.json";
@@ -17,6 +19,7 @@ export const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
+      <FaAnglesDown className="arrow-icon" />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </div>

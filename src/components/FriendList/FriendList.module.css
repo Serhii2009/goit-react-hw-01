@@ -1,7 +1,8 @@
 .friendList {
+  /* margin-right: 200px;
+    margin-bottom: 200px; */
   display: flex;
   gap: 16px;
-  margin-top: 20px;
 }
 
 .item {
@@ -26,10 +27,10 @@
 
 .isOnline {
   composes: status;
-  color: green;
+  color: rgb(18, 218, 18);
 }
 .isOffline {
   composes: status;
 
-  color: red;
+  color: rgb(254, 18, 18);
 }
