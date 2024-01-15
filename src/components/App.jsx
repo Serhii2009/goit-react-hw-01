@@ -21,6 +21,7 @@ export const App = () => {
       />
       <FaAnglesDown className="arrow-icon" />
       <FriendList friends={friends} />
+      <FaAnglesDown className="arrow-icon" />
       <TransactionHistory items={transactions} />
     </div>
   );

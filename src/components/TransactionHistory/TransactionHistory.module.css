@@ -15,7 +15,7 @@
 }
 
 .transactionHistory tr:nth-child(even) {
-  background-color: #d3d3d3;
+  background-color: rgba(111, 104, 104, 0.601);
 }
 .transactionHistory td:nth-child(3n + 1) {
   text-align: left;
